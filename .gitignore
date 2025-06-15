@@ -1,0 +1,24 @@
+# Hexo 核心自动生成文件
+.deploy_git/
+public/
+db.json
+*.log
+
+# Node.js 依赖
+node_modules/
+package-lock.json  # 可选：如果你想忽略锁文件，统一用 package.json 管理依赖
+
+# Hexo 草稿（可选）
+source/_drafts/
+
+# 开发工具配置
+.vscode/
+
+# 系统/编辑器临时文件
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# 主题子模块的 Git 目录（如果主题是 Git 仓库）
+themes/*/.git/
