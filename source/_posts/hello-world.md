@@ -48,6 +48,14 @@ hexo cl; hexo g; hexo d
 ```
 hexo cl; hexo s
 ```
+#### 添加更改
+```
+git add .
+```
+#### 提交更改
+```
+git commit -m "添加内容"
+```
 
 
 ## 更换电脑后继续编辑 
@@ -57,10 +65,11 @@ hexo cl; hexo s
 ### 一、**前提：代码已托管在GitHub**  
 如果原电脑的代码已推送到GitHub仓库，新电脑只需：  
 1. **克隆仓库到本地**：  
-   在新电脑打开终端，进入目标文件夹，输入命令（以GitHub仓库为例）：  
-``` 
-git clone https://github.com/你的用户名/仓库名.git  
-```  
+在新电脑打开终端，进入目标文件夹，输入命令（以GitHub仓库为例）
+
+`git clone https://github.com/你的用户名/仓库名.git`
+  
+
 2. **用VS Code打开项目**：  
    在VS Code中点击左上角「文件」→「打开文件夹」，选择刚克隆的仓库目录，即可直接编辑代码。  
 
