@@ -28,125 +28,65 @@ top_group_index: 10 #【可选】首页右侧卡片组配置, 数字越小越靠
 ai: #【可选】文章ai摘要
 background: "#fff" #【可选】文章主色，必须是16进制颜色且有6位，不可缩减，例如#ffffff 不可写成#fff
 ---
-#### hexo new 这是一篇新的博文
-#### hexo new page 新建的标签页
+#### 新建博文
+```
+hexo new 这是一篇新的博文
+```
+#### 新建标签页
+```
+hexo new page 新建的标签页
+```
 #### 更新追番
-> hexo bangumi -u 
-
-要在 SSH 下部署服务器，一般步骤如下（以 Linux 服务器为例）：
-
----
-
-### 一、连接到服务器
-
-```bash
-ssh username@your_server_ip
+```
+hexo bangumi -u 
+```
+#### 部署网页 
+```
+hexo cl; hexo g; hexo d
+```
+#### 本地预览
+```
+hexo cl; hexo s
 ```
 
-例如：
 
-```bash
-ssh root@192.168.1.100
-```
+## 更换电脑后继续编辑 
+如果你只是想在新电脑上继续编辑原有源代码，核心操作其实很简单，重点在**代码同步**和**基础环境复用**，无需复杂的VS Code设置同步流程。以下是更简化的步骤：  
 
----
 
-### 二、更新系统
+### 一、**前提：代码已托管在GitHub**  
+如果原电脑的代码已推送到GitHub仓库，新电脑只需：  
+1. **克隆仓库到本地**：  
+   在新电脑打开终端，进入目标文件夹，输入命令（以GitHub仓库为例）：  
+``` 
+git clone https://github.com/你的用户名/仓库名.git  
+```  
+2. **用VS Code打开项目**：  
+   在VS Code中点击左上角「文件」→「打开文件夹」，选择刚克隆的仓库目录，即可直接编辑代码。  
 
-```bash
-sudo apt update && sudo apt upgrade -y    # Ubuntu/Debian 系
-# 或
-sudo yum update -y                        # CentOS/RHEL 系
-```
 
----
+### 二、**若代码未托管：手动迁移代码**  
+如果代码在原电脑本地（未上传GitHub），需先拷贝到新电脑：  
+1. **备份代码**：  
+   将原电脑中项目文件夹复制到U盘、移动硬盘或云盘（如百度云、OneDrive）。  
+2. **在新电脑导入**：  
+   将备份的项目文件夹复制到新电脑，用VS Code直接打开文件夹即可编辑。  
 
-### 三、安装必要的软件（以部署网站为例）
 
-#### 安装 Nginx（或 Apache）
+### 三、**恢复基础编辑环境（可选）**  
+如果希望VS Code的扩展、主题等和原电脑一致，可简化操作：  
+1. **安装常用扩展**：  
+   比如Markdown编辑、Git工具等，直接在VS Code扩展市场搜索安装（例如搜索“Markdown All in One”“GitLens”）。  
+2. **复用主题和设置**：  
+   - 主题：在VS Code中按`Ctrl+K Ctrl+T`，选择原电脑使用的主题（如默认主题或第三方主题）。  
+   - 快捷键/字体等设置：若记得具体配置，可在新电脑的`设置（Ctrl+,）`中手动调整，或从原电脑复制`settings.json`文件到新电脑（路径见下方）：  
+     - Windows：`%APPDATA%\Code\User\settings.json`  
+     - macOS：`~/.config/Code/User/settings.json`  
 
-```bash
-sudo apt install nginx -y
-```
 
-#### 安装 Node.js（举例）
+### 四、**关键提醒：避免重复操作**  
+- **无需同步全部VS Code设置**：若仅编辑代码，扩展和主题可按需安装，不必强求100%一致。  
+- **优先保障代码可访问**：只要代码在GitHub或已拷贝到新电脑，用VS Code打开即可编辑，其他环境配置可逐步补充。  
 
-```bash
-sudo apt install nodejs npm -y
-```
 
-#### 安装 Git
-
-```bash
-sudo apt install git -y
-```
-
----
-
-### 四、部署项目
-
-1. **拉取代码**：
-
-   ```bash
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
-   ```
-
-2. **安装依赖并构建**（如使用 Node.js）：
-
-   ```bash
-   npm install
-   npm run build    # 如果是 React/Vue 项目
-   ```
-
-3. **启动服务**：
-
-   ```bash
-   npm start        # 或使用 pm2 更稳妥
-   ```
-
----
-
-### 五、配置 Nginx（反向代理）
-
-编辑配置文件：
-
-```bash
-sudo nano /etc/nginx/sites-available/default
-```
-
-示例配置：
-
-```nginx
-server {
-    listen 80;
-    server_name yourdomain.com;
-
-    location / {
-        proxy_pass http://localhost:3000;
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host $host;
-        proxy_cache_bypass $http_upgrade;
-    }
-}
-```
-
-然后重启 Nginx：
-
-```bash
-sudo systemctl restart nginx
-```
-
----
-
-### 六、设置防火墙（可选）
-
-```bash
-sudo ufw allow 'Nginx Full'
-```
-
----
-
-你想部署哪种类型的服务器（比如 Web 服务、API、数据库、应用等）？我可以给出更具体的配置。
+总结：**核心操作就是克隆/复制代码到新电脑，用VS Code打开即可编辑**。环境配置（扩展、主题等）属于优化项，可根据需要逐步恢复，无需一开始就追求完整同步。
