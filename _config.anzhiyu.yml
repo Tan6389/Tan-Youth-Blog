@@ -141,7 +141,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://cdn-fusion.imgcdn.store/i/2025/znwlZE7gOAQ8JCTw.jpg
+  img: images/head.jpg
   effect: false
 
 # Disable all banner image
