@@ -56,6 +56,14 @@ git add .
 ```
 git commit -m "添加内容"
 ```
+### 插入图片
+```
+![这是图片描述](https://cdn-fusion.imgcdn.store/i/2025/qHZq7swABcLLFMXX.jpg)
+```
+## 插入PDF
+```
+<embed src="/file/example.pdf" type="application/pdf" width="100%" height="600px" />
+```
 
 
 ## 更换电脑后继续编辑 
