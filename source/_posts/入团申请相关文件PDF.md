@@ -1,6 +1,6 @@
 ---
 title: 入团申请相关文件PDF
-cover: \images\application.png
+cover: https://cdn-fusion.imgcdn.store/i/2025/HFtL0vw7zHIXRbP9.png
 swiper_index: 10
 top_group_index: 10
 background: '#fff'
@@ -28,6 +28,7 @@ highlight_shrink:
 aside:
 ai:
 ---
+对wx的PDF预览存在兼容问题，请在浏览器打开
 # 入团申请表2023
 <embed src="\file\入团申请表2023.pdf" type="application/pdf" width="100%" height="600px" />
 
