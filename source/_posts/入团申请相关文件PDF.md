@@ -28,9 +28,11 @@ highlight_shrink:
 aside:
 ai:
 ---
-对wx的PDF预览存在兼容问题，请在浏览器打开
+对wx的PDF预览存在兼容问题，请点击右上角选择使用浏览器打开
 # 入团申请表2023
 <embed src="\file\入团申请表2023.pdf" type="application/pdf" width="100%" height="600px" />
+
+<a href="\file\入团申请表2023.pdf" download class="download-button">点击下载入团申请表2023</a>
 
 # 入团志愿书
 评论区可投稿
