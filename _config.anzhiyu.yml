@@ -28,8 +28,8 @@ nav:
   menu:
     - title: 网页
       item:
-        - name: 博客
-          link: https://sutan.dpdns.org/
+        - name: 影视(密码:guest)
+          link: https://film.sutan.dpdns.org/
           icon: /img/favicon.ico
     - title: 项目
       item:
