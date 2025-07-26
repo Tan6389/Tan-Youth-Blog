@@ -6,7 +6,7 @@ db.json
 
 # Node.js 依赖
 node_modules/
-package-lock.json  # 可选：如果你想忽略锁文件，统一用 package.json 管理依赖
+# package-lock.json  # 可选：如果你想忽略锁文件，统一用 package.json 管理依赖
 
 # Hexo 草稿（可选）
 source/_drafts/
