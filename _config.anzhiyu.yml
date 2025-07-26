@@ -5,8 +5,8 @@ menu:
      标签: /tags/ || anzhiyu-icon-tags
 
    友链:
-  #   友人帐: /link/ || anzhiyu-icon-link
-     朋友圈: /fcircle/ || anzhiyu-icon-artstation
+     友人帐: /link/ || anzhiyu-icon-link
+   #  朋友圈: /fcircle/ || anzhiyu-icon-artstation
      留言板: /comments/ || anzhiyu-icon-envelope
 
    我的:
@@ -402,8 +402,8 @@ chat_hide_show: true
 # chatra
 # https://chatra.io/
 chatra:
-  enable: false
-  id:
+  enable: true
+  id: Tr6dYh4v7ice3CrRL
 
 # tidio
 # https://www.tidio.com/
