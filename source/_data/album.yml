@@ -12,6 +12,15 @@
   top_link: /album
   top_btn_text: 返回
   album_list:
+    - date: 2025-02-01
+      content: 南京自由行
+      address: 南京市
+      from: 舒坦
+      image:
+        - https://cdn-fusion.imgcdn.store/i/2025/0LxqXhi3Yc2GUDPD.jpg
+        - https://cdn-fusion.imgcdn.store/i/2025/S9sqsQMpDE48BDvJ.jpg
+        - https://cdn-fusion.imgcdn.store/i/2025/lt9Xdn6CjnvankF6.jpg
+    
     - date: 2024/8/06 01:00:00
       content: 北京西站
       address: 北京
@@ -26,7 +35,6 @@
         - https://cdn-fusion.imgcdn.store/i/2025/rNqfbkQbD5NbscqK.jpg
         - https://i.miji.bid/2025/05/02/f5945cf3857744baf8ae32676255d393.jpeg
         - https://i.miji.bid/2025/05/02/e29a61a8c21219a403c71e9a6763d2b1.jpeg
-
 - class_name: 我的日常
   path_name: /dailyPhoto
   type: 1
