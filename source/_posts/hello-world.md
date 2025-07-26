@@ -18,7 +18,7 @@ copyright_author: #【可选】文章版权模块的文章作者
 copyright_author_href: #【可选】文章版权模块的文章作者链接
 copyright_url: #【可选】文章版权模块的文章作者链接
 copyright_info: #【可选】文章版权模块的版权声明文字
-mathjax: #【可选】显示 mathjax(当设置 mathjax 的 per_page: false 时，才需要配置，默认 false)
+mathjax: true #【可选】显示 mathjax(当设置 mathjax 的 per_page: false 时，才需要配置，默认 false)
 katex: #【可选】显示 katex(当设置 katex 的 per_page: false 时，才需要配置，默认 false)
 aplayer: #【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置
 highlight_shrink: #【可选】配置代码框是否展开(true/false)(默认为设置中 highlight_shrink 的配置)
@@ -107,3 +107,120 @@ git commit -m "添加内容"
 
 
 总结：**核心操作就是克隆/复制代码到新电脑，用VS Code打开即可编辑**。环境配置（扩展、主题等）属于优化项，可根据需要逐步恢复，无需一开始就追求完整同步。
+
+
+## 数学内容渲染
+```
+# 源码
+- 简单加减： $a + b = c$  ，渲染后是行内的 a + b = c 
+- 变量与系数： $y = kx + b$  ，渲染为 y = kx + b 
+```
+$a + b = c$ 
+
+**以下为测试内容**
+以下是一些常见数学公式的 Markdown（结合 Hexo 支持的渲染，通常用 KaTeX 或 MathJax 渲染，需确保博客主题已配置好数学公式渲染环境 ）样板，可直接放到 Hexo 文章的 Markdown 文件中测试：
+ 
+1. 行内公式
+ 
+- 简单加减： $a + b = c$  ，渲染后是行内的 a + b = c 。
+- 变量与系数： $y = kx + b$  ，渲染为 y = kx + b 。
+ 
+2. 独立公式块（带编号或不带）
+ 
+- 不带编号的公式块（用  $$  包裹 ）：
+ 
+$$
+\int_{a}^{b} f(x) \, dx
+$$
+ 
+ 
+渲染后是独立的积分公式：
+ 
+
+\int_{a}^{b} f(x) \, dx
+
+ 
+- 带编号的公式块（不同渲染引擎语法有差异，以 MathJax 为例，用  \begin{equation}  等环境 ）：
+ 
+$$
+\begin{equation}
+\sum_{i=1}^{n} i = \frac{n(n + 1)}{2}
+\end{equation}
+$$
+ 
+ 
+渲染后会显示带编号（如 (1) 等，依顺序）的求和公式：
+ 
+3. 矩阵与行列式
+ 
+- 矩阵：
+ 
+$$
+\begin{bmatrix}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+a_{21} & a_{22} & \cdots & a_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m1} & a_{m2} & \cdots & a_{mn}
+\end{bmatrix}
+$$
+ 
+ 
+渲染出矩阵：
+ 
+
+\begin{bmatrix}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+a_{21} & a_{22} & \cdots & a_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m1} & a_{m2} & \cdots & a_{mn}
+\end{bmatrix}
+
+ 
+- 行列式：
+ 
+$$
+\begin{vmatrix}
+1 & 2 \\
+3 & 4
+\end{vmatrix}
+$$
+ 
+ 
+渲染结果：
+ 
+
+\begin{vmatrix}
+1 & 2 \\
+3 & 4
+\end{vmatrix}
+
+ 
+4. 复杂公式（如微积分、向量等）
+ 
+- 向量点积：
+ 
+$$
+\vec{a} \cdot \vec{b} = |\vec{a}| |\vec{b}| \cos\theta
+$$
+ 
+ 
+渲染：
+ 
+
+\vec{a} \cdot \vec{b} = |\vec{a}| |\vec{b}| \cos\theta
+
+ 
+- 二阶导数：
+ 
+$$
+\frac{d^2 y}{dx^2} + y = 0
+$$
+ 
+ 
+渲染：
+ 
+
+\frac{d^2 y}{dx^2} + y = 0
+
+ 
+将这些内容放到你的 Hexo 博客文章的  .md  文件中，部署或本地预览（ hexo s  ）后，查看是否能正确渲染。若未正确显示，检查主题配置里是否启用了 KaTeX/MathJax ，以及相关 CDN 或依赖是否加载正常 。

@@ -160,3 +160,14 @@ bangumi: # 追番设置
     top_img: false
     lazyload:
       enable: false
+
+
+# 渲染器
+kramed:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
