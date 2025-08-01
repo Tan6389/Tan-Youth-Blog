@@ -32,7 +32,7 @@ ai:
 
 ## 实例
 影视(密码:guest)
-https://film.sutan.dpdns.org/
+https://film.sutan.cfd/
 
 ✨ 功能特性
 🔍 多源聚合搜索：内置数十个免费资源站点，一次搜索立刻返回全源结果。
