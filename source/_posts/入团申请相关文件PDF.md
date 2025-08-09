@@ -36,3 +36,6 @@ ai:
 
 # 入团志愿书
 评论区可投稿
+**模板**
+<embed src="\file\model1_compressed.pdf" type="application/pdf" width="100%" height="600px" />
+<a href="\file\model1_compressed.pdf" download class="download-button">点击下载模板</a>
