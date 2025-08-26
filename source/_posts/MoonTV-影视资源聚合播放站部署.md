@@ -31,8 +31,8 @@ ai:
 🎬 MoonTV 是一个开箱即用的、跨平台的影视聚合播放器。它基于 Next.js 14 + Tailwind CSS + TypeScript 构建，支持多资源搜索、在线播放、收藏同步、播放记录、本地/云端存储，让你可以随时随地畅享海量免费影视内容。
 
 ## 实例
-影视(密码:guest)
-https://tv.617171.xyz/
+影视(用户名/密码:guest)
+https://yogmaewrhvqi.us-west-1.clawcloudrun.com/
 
 ✨ 功能特性
 🔍 多源聚合搜索：内置数十个免费资源站点，一次搜索立刻返回全源结果。
