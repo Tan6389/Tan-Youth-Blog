@@ -49,3 +49,12 @@
       image:
         - https://cdn-fusion.imgcdn.store/i/2025/U29OUrZqH1QEN6vK.jpg
         - https://i.miji.bid/2025/05/02/df6cf56ad0e4e7cdb13c44239c8d5435.jpeg
+
+- class_name: 跳转至QQ空间
+  path_name: /qqzone
+  type: 1
+  description: 懒得做了，直接跳转到QQ空间看看吧
+  top_link: /album
+  top_btn_text: 返回
+  top_background: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
+  cover: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
