@@ -250,10 +250,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://cdn-fusion.imgcdn.store/i/2025/Mun2hWPKBtFSK4UN.png
+    - img: https://img.617171.xyz/file/AgACAgQAAyEGAAScPoQGAAMeaM7U3Lc4SScd0qxqPQuqW3p4UbUAAiTJMRtSUXFSCuOe2Bn8z-sBAAMCAAN3AAM2BA.png
       link:
       text: 微信
-    - img: https://cdn-fusion.imgcdn.store/i/2025/5sHBVJnYvxW9PgQt.jpg
+    - img: https://img.617171.xyz/file/AgACAgQAAyEGAAScPoQGAAMdaM7Ut6mPtjjFYx3fksPxwxp2zaUAAiPJMRtSUXFSmCKzqw5HJf8BAAMCAAN5AAM2BA.png
       link:
       text: 支付宝
 
@@ -1080,7 +1080,7 @@ home_top:
   banner:
     tips: 内容聚焦
     title: MoonTV影视资源上线
-    image: https://cdn-fusion.imgcdn.store/i/2025/r37tXaLpFzpsHnjy.png
+    image: https://youke1.picui.cn/s1/2025/09/21/68ced81514d9d.png
     link:  https://yogmaewrhvqi.us-west-1.clawcloudrun.com/
 
 # 朋友圈配置

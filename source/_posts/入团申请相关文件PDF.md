@@ -1,6 +1,6 @@
 ---
 title: 入团申请相关文件PDF
-cover: https://cdn-fusion.imgcdn.store/i/2025/HFtL0vw7zHIXRbP9.png
+cover: https://img.617171.xyz/file/AgACAgQAAyEGAAScPoQGAAMaaM7Ss4Oko_wdYDwP4UG-D3dsoboAAh_JMRtSUXFS38jcNav0mZQBAAMCAAN4AAM2BA.png
 swiper_index: 10
 top_group_index: 10
 background: '#fff'

@@ -1,6 +1,6 @@
 ---
 title: MoonTV-影视资源聚合播放站部署
-cover: https://cdn-fusion.imgcdn.store/i/2025/hDczRDUezPgqELZR.png
+cover: https://img.617171.xyz/file/AgACAgQAAyEGAAScPoQGAAMKaM7MhpFVS7KcPwyFcaE17sImyCwAAv3IMRtSUXFS_qVkWXI8bfcBAAMCAAN4AAM2BA.png
 swiper_index: 10
 top_group_index: 10
 background: '#fff'

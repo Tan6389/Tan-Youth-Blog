@@ -12,7 +12,7 @@ copyright_author: null
 copyright_author_href: null
 copyright_info: null
 copyright_url: null
-cover: https://cdn-fusion.imgcdn.store/i/2025/XNSDRF75LbzanYVG.jpg
+cover: https://img.617171.xyz/file/AgACAgQAAyEGAAScPoQGAAMYaM7Ofpob73pBd9vkQqakaYHqgtQAAhzJMRtSUXFSffVveKn36r8BAAMCAAN3AAM2BA.png
 date: '2025-05-01T00:13:55+08:00'
 description: null
 highlight_shrink: null
