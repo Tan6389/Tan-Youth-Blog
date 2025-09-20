@@ -44,7 +44,7 @@ https://yogmaewrhvqi.us-west-1.clawcloudrun.com/
 🚀 极简部署：一条 Docker 命令即可将完整服务跑起来，或免费部署到 Vercel 和 Cloudflare。
 👿 智能去广告：自动跳过视频中的切片广告（实验性）
 
-![这是图片描述](https://cdn-fusion.imgcdn.store/i/2025/C3WgBGMNpw14mAN5.webp)
+![这是图片描述](https://img.617171.xyz/file/AgACAgQAAyEGAAScPoQGAAMfaM7e-c1HvYBLPVDCIP_96wSl4MUAAjvJMRtSUXFShmJzAkLrcfMBAAMCAAN3AAM2BA.png)
 
 # 部署
 本项目支持 Vercel、Docker 和 Cloudflare 部署。
