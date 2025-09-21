@@ -1,6 +1,6 @@
 ---
 title: 在中国使用giffgaff电话卡
-cover: https://img.617171.xyz/file/AgACAgQAAyEGAAScPoQGAAMZaM7SO2XhRmCNsbiyTxRLB1jwHHoAAh7JMRtSUXFSReoiLOUf27MBAAMCAAN5AAM2BA.png
+cover: https://img.617171.xyz/file/AgACAgQAAyEGAAScPoQGAAMmaNATCYArNUk9h166ZGmLAVHZJzwAArbIMRtSUYFSFeRU0vwOqN4BAAMCAAN5AAM2BA.png
 swiper_index: 10
 top_group_index: 10
 background: '#fff'

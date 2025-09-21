@@ -12,7 +12,7 @@ copyright_author: null
 copyright_author_href: null
 copyright_info: null
 copyright_url: null
-cover: https://img.617171.xyz/file/AgACAgQAAyEGAAScPoQGAAMYaM7Ofpob73pBd9vkQqakaYHqgtQAAhzJMRtSUXFSffVveKn36r8BAAMCAAN3AAM2BA.png
+cover: https://img.617171.xyz/file/AgACAgQAAyEGAAScPoQGAAMiaNARj9Y9kmE2AzdHe0oPJGBcNbEAArHIMRtSUYFSi6Jj8Br-LC0BAAMCAAN5AAM2BA.png
 date: '2025-05-01T00:13:55+08:00'
 description: null
 highlight_shrink: null
