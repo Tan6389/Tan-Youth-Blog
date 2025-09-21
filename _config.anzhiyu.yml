@@ -37,7 +37,7 @@ nav:
           link: https://github.com/Tan6389/MoonTV
           icon: /img/favicon.ico
         - name: 图床
-          link: https://imgimg.cc/
+          link: https://img.617171.xyz/
           icon: /img/favicon.ico
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
@@ -534,10 +534,10 @@ footer:
     linkList:
       - link: #https://github.com/anzhiyu-c/hexo-theme-anzhiyu
         text: #主题
-      # - link: https://image.anheyu.com
-      #   text: 图床
-      # - link: https://beian.miit.gov.cn/
-      #   text: 湘ICP备-xxxxxxx号
+      - link: https://img.617171.xyz/
+        text: 图床
+      - link: https://beian.miit.gov.cn/
+        text: 豫ICP备-xxxxxxx号
     subTitle:
       enable: false
       # Typewriter Effect (打字效果)
@@ -1208,7 +1208,7 @@ accesskey:
 
 # 友情链接顶部相关配置
 linkPageTop:
-  enable: false
+  enable: true
   title: 与数百名博主无限进步
   # 添加博主友链的评论自定义格式
   addFriendPlaceholder: "昵称（请勿包含博客等字样）：\n网站地址（要求博客地址，请勿提交个人主页）：\n头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：\n描述：\n站点截图（可选）：\n"
