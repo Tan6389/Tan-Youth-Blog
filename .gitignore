@@ -1,7 +1,7 @@
 # Hexo 核心自动生成文件
 .deploy_git/
 public/
-#db.json
+db.json
 *.log
 
 # Node.js 依赖
