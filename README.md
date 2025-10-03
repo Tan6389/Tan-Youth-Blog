@@ -14,8 +14,8 @@ A personal blog built with [Hexo/Gatsby/VitePress/Next.js]，记录技术实践�
 1. 克隆仓库
 bash
   
-git clone https://github.com/Tan6389/blog-demo.git
-cd blog-demo
+git clone https://github.com/Tan6389/Tan-Youth-Blog.git
+cd Tan-Youth-Blog
  
 2. 安装依赖
 bash
