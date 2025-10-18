@@ -1021,7 +1021,7 @@ pangu:
 lazyload:
   enable: true
   field: site # site/post
-  placeholder:
+  placeholder: /img/loading-placeholder.png # 添加占位符图片路径
   blur: true
   progressive: true
 
@@ -1249,84 +1249,6 @@ inject:
 # Don't modify the following settings unless you know how they work
 # 非必要请不要修改
 CDN:
-  # The CDN provider of internal scripts (主题内部 js 的 cdn 配置)
-  # option: local/elemecdn/jsdelivr/unpkg/cdnjs/onmicrosoft/cbd/anheyu/custom
-  # Dev version can only choose. ( dev版的主题只能设置为 local )
-  internal_provider: local
-
-  # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
-  # option: elemecdn/jsdelivr/unpkg/cdnjs/onmicrosoft/cbd/anheyu/custom
-  third_party_provider: cbd
-
-  # Add version number to CDN, true or false
-  version: true
-
-  # Custom format
-  # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
-  custom_format: # https://npm.elemecdn.com/${name}@latest/${file}
-
-  option:
-    # main_css:
-    # main:
-    # utils:
-    # translate:
-    # random_friends_post_js:
-    # right_click_menu_js:
-    # comment_barrage_js:
-    # ai_abstract_js:
-    # people_js:
-    # local_search:
-    # algolia_js:
-    # algolia_search:
-    # instantsearch:
-    # docsearch_js:
-    # docsearch_css:
-    # pjax:
-    # blueimp_md5:
-    # valine:
-    # twikoo:
-    # waline_js:
-    # waline_css:
-    # sharejs:
-    # sharejs_css:
-    # mathjax:
-    # katex:
-    # katex_copytex:
-    # mermaid:
-    # canvas_ribbon:
-    # canvas_fluttering_ribbon:
-    # canvas_nest:
-    # lazyload:
-    # instantpage:
-    # typed:
-    # pangu:
-    # fancybox_css:
-    # fancybox:
-    # medium_zoom:
-    # snackbar_css:
-    # snackbar:
-    # activate_power_mode:
-    # fireworks:
-    # click_heart:
-    # ClickShowText:
-    # fontawesome:
-    # flickr_justified_gallery_js:
-    # flickr_justified_gallery_css:
-    # aplayer_css:
-    # aplayer_js:
-    # meting_js:
-    # meting_api:
-    # prismjs_js:
-    # prismjs_lineNumber_js:
-    # prismjs_autoloader:
-    # artalk_js:
-    # artalk_css:
-    # pace_js:
-    # pace_default_css:
-    # countup_js:
-    # gsap_js:
-    # busuanzi:
-    # rightmenu:
-    # waterfall:
-    # ali_iconfont_css:
-    # accesskey_js:
+  internal_provider: jsdelivr # 将内部脚本切换到 jsdelivr CDN
+  third_party_provider: jsdelivr # 将第三方脚本切换到 jsdelivr CDN
+  version: true # 启用版本号以确保缓存更新
