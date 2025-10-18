@@ -1,36 +1,40 @@
 ---
-title: MoonTV-影视资源聚合播放站部署
-cover: https://free.picui.cn/free/2025/10/03/68df448be1d5a.png
-swiper_index: 10
-top_group_index: 10
+abbrlink: ''
+ai: null
+aplayer: null
+aside: null
 background: '#fff'
-date: 2025-07-26 00:03:40
-updated:
-tags: 影视
-categories: 前端
-keywords:
-description:
-top: 1
-top_img:
-comments:
-toc:
-toc_number:
-toc_style_simple:
-copyright:
-copyright_author:
-copyright_author_href:
-copyright_url:
-copyright_info:
-mathjax:
-katex:
-aplayer:
-highlight_shrink:
-aside:
-ai:
+categories:
+- 前端
+comments: null
+copyright: null
+copyright_author: null
+copyright_author_href: null
+copyright_info: null
+copyright_url: null
+cover: https://free.picui.cn/free/2025/10/03/68df448be1d5a.png
+date: '2025-07-26T00:03:40+08:00'
+description: null
+highlight_shrink: null
+katex: null
+keywords: null
+mathjax: null
+swiper_index: 10
+tags:
+- 影视
+title: MoonTV-影视资源聚合播放站部署
+toc: null
+toc_number: null
+toc_style_simple: null
+top: ''
+top_group_index: 10
+top_img: null
+updated: '2025-10-18T12:49:59.723+08:00'
 ---
 🎬 MoonTV 是一个开箱即用的、跨平台的影视聚合播放器。它基于 Next.js 14 + Tailwind CSS + TypeScript 构建，支持多资源搜索、在线播放、收藏同步、播放记录、本地/云端存储，让你可以随时随地畅享海量免费影视内容。
 
 ## 实例
+
 影视(用户名/密码:guest)
 https://yogmaewrhvqi.us-west-1.clawcloudrun.com/
 
@@ -47,6 +51,7 @@ https://yogmaewrhvqi.us-west-1.clawcloudrun.com/
 ![这是图片描述](https://free.picui.cn/free/2025/10/03/68df44901aeb9.png)
 
 # 部署
+
 本项目支持 Vercel、Docker 和 Cloudflare 部署。
 
 **1、Vercel 部署**
@@ -78,6 +83,3 @@ D1 支持
 返回你的 pages 项目，进入 设置 -> 绑定，添加绑定 D1 数据库，选择你刚创建的数据库，变量名称填 DB
 设置环境变量 NEXT_PUBLIC_STORAGE_TYPE，值为 d1；设置 USERNAME 和 PASSWORD 作为站长账号
 重试部署
-
-
-
